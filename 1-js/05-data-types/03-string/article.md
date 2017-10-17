@@ -538,8 +538,8 @@ It provides a special method to compare strings in different languages, followin
 
 The call [str.localeCompare(str2)](mdn:js/String/localeCompare):
 
-- Returns `1` if `str` is greater than `str2` according to the language rules.
-- Returns `-1` if `str` is less than `str2`.
+- Returns `-1` if `str` is greater than `str2` according to the language rules.
+- Returns `1` if `str` is less than `str2`.
 - Returns `0` if they are equal.
 
 For instance:
